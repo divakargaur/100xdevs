@@ -29,3 +29,7 @@ async () => {
     const res = await p();
     console.log(res);
 }
+
+
+//sum(1, 2, fn) -> this how you a pass a function
+//sum(1, 2, fn()) => sum(1, 2, RETURN_VALUE) -> will give an error
